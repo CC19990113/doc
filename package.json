@@ -1,0 +1,18 @@
+{
+  "name": "2313213232",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "build:all": "vuepress build docs && vuepress build docs && vuepress build docs && vuepress build docs && vuepress build docs && vuepress build docs && vuepress build docs && vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.61"
+  },
+  "dependencies": {
+    "@vuepress/theme-default": "^2.0.0-beta.61"
+  }
+}
